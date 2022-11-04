@@ -223,7 +223,7 @@ function App() {
         <section className="main-hero main-section">
           <div className="main-hero-top">
             <h1 className="main-hero-header">
-              The simple way to bank, save and invest.
+            Trust-first, digital identity validation.
             </h1>
           </div>
           <div id="lottie" className="main-hero-center main-hero-lottie">
