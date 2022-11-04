@@ -218,6 +218,8 @@ function App() {
 
       {/* <!-- Content --> */}
       <div id="notice-wrap" className="wrap" style={{ overflowX: "hidden" }}>
+      <iframe aria-label="Hero background video of taffy" data-src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" scrolling="no" frameBorder="0" allowtransparency="false" allowFullScreen="true" src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" className="vyLoad"></iframe>
+
         <div className="navbar-offset"></div>
         {/* <!-- Section: Main header --> */}
         <section className="main-hero main-section">
