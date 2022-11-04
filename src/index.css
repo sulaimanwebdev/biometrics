@@ -27,6 +27,9 @@ h1.small-title{
       font-size:2rem
   }
 }
+.footer-logo{
+  width: 140px;
+}
 h2{
   font-size:2.917rem;
   font-weight:700;
@@ -317,10 +320,12 @@ nav.shrink{
   background: white !important;
 }
 nav .logo{
-  height:1.3em
+width: 140px;
+
 }
 nav .logo.shrink{
-  height:1em
+  width: 120px;
+
 }
 nav a,nav a:visited{
   display:block;
@@ -438,7 +443,7 @@ nav a:hover,nav a:visited:hover{
 .dropdown-mobile{
   display:none;
   position:fixed;
-  top:5.625rem;
+  top:4.625rem;
   bottom:0;
   left:0;
   right:0;
@@ -448,9 +453,11 @@ nav a:hover,nav a:visited:hover{
   text-align:left;
   overflow:auto
 }
-.dropdown-mobile.shrink{
-  top:3rem
+
+.topSpace{
+  top:3rem;
 }
+
 .features-section-mobile{
   margin-top:-16px;
   margin-bottom:16px
@@ -513,10 +520,10 @@ footer{
       padding:12em 10% 10em 10%
   }
 }
-footer .logo{
+/* footer .logo{
   width:40px;
   max-width:50%
-}
+} */
 footer a:link,footer a:visited{
   color:#333
 }

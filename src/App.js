@@ -6,7 +6,8 @@ function App() {
   const [backdrop, setbackdrop] = useState("");
   const [dropdownDesktop, setdropdownDesktop] = useState("");
   const [mobileDrop, setmobileDrop] = useState("");
-
+  const [dropdownMobile, setdropdownMobile] = useState("");
+  
   let openModal = () => {
     setmodal("flex");
     document.body.style.overflow = "hidden";
@@ -20,10 +21,13 @@ function App() {
   const handleScroll = () => {
     if (window.pageYOffset < 170) {
       setnavbar("");
+      setdropdownMobile("");
     }
 
     if (window.pageYOffset > 170) {
       setnavbar("shrink");
+      setdropdownMobile("topSpace");
+
     }
   };
 
@@ -40,8 +44,8 @@ function App() {
             <img
               id="logo"
               className={`logo ${navbar}`}
-              src="/images/albert-logo.svg"
-              alt="Albert"
+              src="/images/logo.png"
+              alt="logo"
             />
           </a>
         </div>
@@ -190,7 +194,7 @@ function App() {
                 ></path>
               </svg>
             </button>
-            <div id="mobileDrop" className={`dropdown-mobile ${mobileDrop}`}>
+            <div id="mobileDrop" className={`dropdown-mobile ${dropdownMobile} ${mobileDrop}`}>
               <div id="features-mobile" className="features-section-mobile">
                 <a href="/cash/">Cash</a>
                 <a href="/instant/">Instant</a>
@@ -218,7 +222,7 @@ function App() {
 
       {/* <!-- Content --> */}
       <div id="notice-wrap" className="wrap" style={{ overflowX: "hidden" }}>
-      <iframe aria-label="Hero background video of taffy" data-src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" scrolling="no" frameBorder="0" allowtransparency="false" allowFullScreen="true" src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" className="vyLoad"></iframe>
+      <iframe aria-label="Hero background video of taffy" data-src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" scrolling="no" frameBorder="0" allowtransparency="false" allowFullScreen={true} src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" className="vyLoad"></iframe>
 
         <div className="navbar-offset"></div>
         {/* <!-- Section: Main header --> */}
@@ -278,26 +282,17 @@ function App() {
             </svg>
           </div>
           <div className="main-hero-bottom">
-            <div className="main-button-wrapper main-get-app-button">
-              <a className="button" href="https://app.albrt.co/download">
-                Download app
+           
+            <div className="main-button-wrapper" style={{ display: "block" }}>
+              <a href="https://verify.validentry.com/" target="_blank" className="button">
+                Get started
               </a>
             </div>
-            <div className="main-button-wrapper main-sign-up-button">
-              <button onClick={openModal} className="button">
-                Get started
-              </button>
-            </div>
-            <div className="main-button-wrapper" style={{ display: "block" }}>
-              <button onClick={openModal} className="button">
-                Get started
-              </button>
-            </div>
           </div>
-          <div className="main-disclaimer">
+          {/* <div className="main-disclaimer">
             Albert is not a bank. Banking services provided by Sutton Bank,
             Member FDIC.
-          </div>
+          </div> */}
         </section>
 
         <div className="main-container">
@@ -755,15 +750,11 @@ function App() {
                   Download app
                 </a>
               </div>
-              <div className="main-button-wrapper main-sign-up-button">
-                <button onClick={openModal} className="button">
-                  Get started
-                </button>
-              </div>
+              
               <div className="main-button-wrapper" style={{ display: "block" }}>
-                <button onClick={openModal} className="button">
-                  Get started
-                </button>
+              <a href="https://verify.validentry.com/" target="_blank" className="button">
+                Get started
+              </a>
               </div>
             </div>
           </section>
@@ -817,9 +808,9 @@ function App() {
         <div className="content-full text-left">
           <a href="/">
             <img
-              className="logo"
-              src="https://cdn.albert.com/static/img/splash/splash-2020-11/brand/albert-logo-mark.svg?v=d7b7ddce7e8aedd935574aa4e2a1b5964d6d0596"
-              alt="Albert"
+              className="footer-logo"
+              src="/images/logo.png"
+              alt="logo"
             />
           </a>
         </div>
