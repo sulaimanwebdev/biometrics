@@ -222,78 +222,25 @@ function App() {
 
       {/* <!-- Content --> */}
       <div id="notice-wrap" className="wrap" style={{ overflowX: "hidden" }}>
-      <iframe aria-label="Hero background video of taffy" data-src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" scrolling="no" frameBorder="0" allowtransparency="false" allowFullScreen={true} src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" className="vyLoad"></iframe>
 
-        <div className="navbar-offset"></div>
-        {/* <!-- Section: Main header --> */}
-        <section className="main-hero main-section">
-          <div className="main-hero-top">
-            <h1 className="main-hero-header">
-            Trust-first, digital identity validation.
-            </h1>
-          </div>
-          <div id="lottie" className="main-hero-center main-hero-lottie">
-            <svg
-              style={{ width: "100%", height: "100%" }}
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 580 680"
-              width="580"
-              height="680"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <defs>
-                <clipPath id="__lottie_element_2">
-                  <rect width="580" height="680" x="0" y="0"></rect>
-                </clipPath>
-                <image xlinkHref="/images/img_0.webp"></image>
-                <image xlinkHref="/images/splash/hero_lottie/images/img_1.webp"></image>
-                <image xlinkHref="/images/img_0.webp"></image>
-                <image xlinkHref="/images/img_0.webp"></image>
-                <image xlinkHref="/images/img_0.webp"></image>
-              </defs>
-              <g clipPath="url(#__lottie_element_2)">
-                <g
-                  className="png"
-                  transform="matrix(0.5199999809265137,0,0,0.5199999809265137,-57,6.3800048828125)"
-                  opacity="1"
-                  style={{ display: "block" }}
-                >
-                  <image
-                    width="1300px"
-                    height="1387px"
-                    preserveAspectRatio="xMidYMid slice"
-                    xlinkHref="/images/img_4.webp"
-                  ></image>
-                </g>
-                <g
-                  className="png"
-                  transform="matrix(0.5199999809265137,0,0,0.5199999809265137,33.39500427246094,51.295989990234375)"
-                  opacity="1"
-                  style={{ display: "block" }}
-                >
-                  <image
-                    width="595px"
-                    height="1100px"
-                    preserveAspectRatio="xMidYMid slice"
-                    xlinkHref="/images/img_0.webp"
-                  ></image>
-                </g>
-              </g>
-            </svg>
-          </div>
-          <div className="main-hero-bottom">
-           
-            <div className="main-button-wrapper" style={{ display: "block" }}>
-              <a href="https://verify.validentry.com/" target="_blank" className="button">
+
+     <div className="heroCont">
+     <iframe aria-label="Hero background video of taffy" data-src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" scrolling="no" frameBorder="0" allowtransparency="false" allowFullScreen={true} src="//play.vidyard.com/9vUaEyfLLaEGaAqVGihCHs/type/background?preview=1" className="vyLoad"></iframe>
+
+      <div className="heroChild">
+      <div className="text-mainHero">
+        <h1>Trust-first<br/>Digital<br/>Validation</h1>
+        <div className="heroDes">Identity verification for physical & virtual worlds.</div>
+              <a href="https://verify.validentry.com/" target="_blank">
                 Get started
               </a>
-            </div>
-          </div>
-          {/* <div className="main-disclaimer">
-            Albert is not a bank. Banking services provided by Sutton Bank,
-            Member FDIC.
-          </div> */}
-        </section>
+      </div>
+
+      <img src="/images/img_cashhome.webp" className="heroImageMainText" alt="" />
+      </div>
+
+     </div>
+        
 
         <div className="main-container">
           {/* <!-- Section: Banking --> */}
