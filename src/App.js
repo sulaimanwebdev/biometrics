@@ -252,10 +252,10 @@ function App() {
           {/* <!-- Section: Banking --> */}
           <section className="main-section">
             <div className="round-card reveal-on">
-              <div className="round-card-inner reveal-delay">
+              <div className="round-card-inner reveal-delay round-card-innerBanking">
                 <div className="round-card-content">
                   <div className="bankingSmallText">KYC FOR YOUR BUSINESS</div>
-                  <div className="bankingHeading">Solutions for everyone, anywhere, <span className="gradient">on any device</span></div>
+                  <div className="bankingHeading bankingHeading1">Solutions for everyone, anywhere, <span className="gradient">on any device</span></div>
                   <div className="bankingDesc">With AI-driven automation, intelligent customer insights, and compliance standards build to scale and streamline the know your customer process, digital identification is made simple. Intuitive, accurate data points stop fraud in its tracks, providing immediate decisions and industry leading matching thresholds.</div>
                   <div className="bankingFlex">
                     <a href="#">Explore KYC <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16"><path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
@@ -314,6 +314,150 @@ function App() {
               </div>
             </div>
           </section>
+
+
+
+
+          <section className="main-section">
+            <div className="round-card reveal-on">
+              <div className="round-card-inner reveal-delay round-card-innerBanking">
+                <div className="round-card-content">
+                  <div className="bankingSmallText">TRUST-FIRST SECURITY</div>
+                  <div className="bankingHeading bankingHeading2">Designed to exceed <span className="gradient">accepted standards</span></div>
+                  <div className="bankingDesc">Verify identities with confidence without sacrificing customer experience. Designed to meet the highest security standards, ensuring enterprise grade data protection and ensuring the integrity of digital transactions. Protect your brand and engage your customers authentically.</div>
+                  <div className="bankingFlex">
+                    <a href="#">Learn about trust-first security <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16"><path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                  </div>
+                </div>
+                <div className="round-card-img-container cash">
+                  <picture className="center-margin">
+                    <source
+                      srcSet="/images/img_cardstack.webp"
+                      type="image/webp"
+                    />
+                    <source
+                      srcSet="/images/img_cardstack.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      className="splash-app-feature img-scale"
+                      src="/images/img_cardstack.webp"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div className="circle-plus reveal-standard">
+                <svg
+                  width="33"
+                  height="33"
+                  viewBox="0 0 33 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.1096 16.3242C31.1096 24.5407 24.4489 31.2014 16.2324 31.2014C8.01597 31.2014 1.35523 24.5407 1.35523 16.3242C1.35523 8.10777 8.01597 1.44703 16.2324 1.44703C24.4489 1.44703 31.1096 8.10777 31.1096 16.3242Z"
+                    stroke="#333333"
+                    strokeWidth="2.24561"
+                  ></path>
+                  <line
+                    x1="16.5017"
+                    y1="9.27124"
+                    x2="16.5017"
+                    y2="24.0923"
+                    stroke="#333333"
+                    strokeWidth="2.24561"
+                    strokeLinecap="round"
+                  ></line>
+                  <line
+                    x1="9.17749"
+                    y1="16.6233"
+                    x2="23.9985"
+                    y2="16.6233"
+                    stroke="#333333"
+                    strokeWidth="2.24561"
+                    strokeLinecap="round"
+                  ></line>
+                </svg>
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+
+
+          <section className="main-section">
+            <div className="round-card reveal-on">
+              <div className="round-card-inner reveal-delay round-card-innerBanking">
+                <div className="round-card-content">
+                  <div className="bankingSmallText">EASY CODE INTEGRATION</div>
+                  <div className="bankingHeading bankingHeading3">Providing all-inclusive <span className="gradient">digital identity management</span></div>
+                  <div className="bankingDesc">With just a few lines of code, you can secure authentication and identification. We'll handle the compatibility nuances while developers focus on building your products. Gain deeper, accurate insights to make better, risk-based decisions.</div>
+                  <div className="bankingFlex">
+                    <a href="#">Flexible options <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16"><path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
+                  </div>
+                </div>
+                <div className="round-card-img-container cash">
+                  <picture className="center-margin">
+                    <source
+                      srcSet="/images/img_cardstack.webp"
+                      type="image/webp"
+                    />
+                    <source
+                      srcSet="/images/img_cardstack.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      className="splash-app-feature img-scale"
+                      src="/images/img_cardstack.webp"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div className="circle-plus reveal-standard">
+                <svg
+                  width="33"
+                  height="33"
+                  viewBox="0 0 33 33"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.1096 16.3242C31.1096 24.5407 24.4489 31.2014 16.2324 31.2014C8.01597 31.2014 1.35523 24.5407 1.35523 16.3242C1.35523 8.10777 8.01597 1.44703 16.2324 1.44703C24.4489 1.44703 31.1096 8.10777 31.1096 16.3242Z"
+                    stroke="#333333"
+                    strokeWidth="2.24561"
+                  ></path>
+                  <line
+                    x1="16.5017"
+                    y1="9.27124"
+                    x2="16.5017"
+                    y2="24.0923"
+                    stroke="#333333"
+                    strokeWidth="2.24561"
+                    strokeLinecap="round"
+                  ></line>
+                  <line
+                    x1="9.17749"
+                    y1="16.6233"
+                    x2="23.9985"
+                    y2="16.6233"
+                    stroke="#333333"
+                    strokeWidth="2.24561"
+                    strokeLinecap="round"
+                  ></line>
+                </svg>
+              </div>
+            </div>
+          </section>
+
+
+
+
+          
 
           {/* <!-- Section: Saving --> */}
           <section className="main-section flex">
@@ -468,92 +612,7 @@ function App() {
             </a>
           </section>
 
-          {/* <!-- Section: Genius --> */}
-          <section className="main-section flex">
-            <div className="img-card desktop-only reveal-on">
-              <div className="reveal-standard">
-                <picture>
-                  <source
-                    srcSet="/images/img_geniuschatsmall.webp"
-                    type="image/webp"
-                  />
-                  <source
-                    srcSet="/images/img_geniuschatsmall.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    className="img-scale"
-                    src="/images/img_geniuschatsmall.webp"
-                    alt=""
-                  />
-                </picture>
-              </div>
-            </div>
-            <a
-              href="/genius/"
-              className="round-card black square reveal-on card-hover"
-            >
-              <div className="round-card-inner genius reveal-delay">
-                <div className="round-card-content">
-                  <div className="mobile-only text-center">
-                    <picture className="center-margin">
-                      <source
-                        srcSet="/images/img_geniuschatsmall.webp"
-                        type="image/webp"
-                      />
-                      <source
-                        srcSet="/images/img_geniuschatsmall.webp"
-                        type="image/webp"
-                      />
-                      <img
-                        className="splash-app-feature full img-scale"
-                        src="/images/img_geniuschatsmall.webp"
-                        alt=""
-                      />
-                    </picture>
-                    <div className="spacer-x-small"></div>
-                  </div>
-                  <div className="round-card-gold-gradient-text bottom-p">
-                    <h2>Advice from real people</h2>
-                    <p>Ask our Geniuses anything money.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="circle-plus reveal-standard">
-                <svg
-                  width="33"
-                  height="33"
-                  viewBox="0 0 33 33"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M31.1096 16.3242C31.1096 24.5407 24.4489 31.2014 16.2324 31.2014C8.01597 31.2014 1.35523 24.5407 1.35523 16.3242C1.35523 8.10777 8.01597 1.44703 16.2324 1.44703C24.4489 1.44703 31.1096 8.10777 31.1096 16.3242Z"
-                    stroke="#333333"
-                    strokeWidth="2.24561"
-                  ></path>
-                  <line
-                    x1="16.5017"
-                    y1="9.27124"
-                    x2="16.5017"
-                    y2="24.0923"
-                    stroke="#333333"
-                    strokeWidth="2.24561"
-                    strokeLinecap="round"
-                  ></line>
-                  <line
-                    x1="9.17749"
-                    y1="16.6233"
-                    x2="23.9985"
-                    y2="16.6233"
-                    stroke="#333333"
-                    strokeWidth="2.24561"
-                    strokeLinecap="round"
-                  ></line>
-                </svg>
-              </div>
-            </a>
-          </section>
+          
 
           {/* <!-- Section: Budgeting --> */}
           <section className="main-section">
@@ -758,7 +817,7 @@ function App() {
       </div>
 
       {/* <!-- Section: Footer --> */}
-      <footer>
+      <footer style={{position: "relative"}}>
         <div className="content-full text-left">
           <a href="/">
             <img
@@ -780,46 +839,13 @@ function App() {
           <a href="/careers/" rel="noopener">
             Careers
           </a>
-          <br />
-          <a href="mailto:hello@example.com" target="_blank">
-            example@example.com
-          </a>
-          <div className="social-icons">
-            <a
-              style={{ marginRight: "5px" }}
-              href="/"
-              target="_blank"
-              rel="noopener"
-            >
-              <i className="fab fa-facebook-square"></i>
-            </a>
-            <a
-              style={{ marginRight: "5px" }}
-              href="/"
-              target="_blank"
-              rel="noopener"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a
-              style={{ marginRight: "5px" }}
-              href="/"
-              target="_blank"
-              rel="noopener"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-          </div>
+          
         </div>
         <div className="col-4">
           <span className="bold">Support</span>
           <br />
-          <a href="/" target="_blank" rel="noopener">
-            Help
-          </a>
-          <br />
-          <a href="mailto:hello@example.com" target="_blank">
-            example@example.com
+          <a href="mailto:support@validentry.com" target="_blank">
+            support@validentry.com
           </a>
         </div>
         <div className="col-4">
@@ -834,7 +860,7 @@ function App() {
           </a>
         </div>
         <div className="col-4 col-last">
-          <span className="bold">App</span>
+          <span className="bold">Coming Soon</span>
           <br />
           <div className="app-buttons">
             <a href="/" target="_blank" rel="noopener">
@@ -846,107 +872,26 @@ function App() {
           </div>
         </div>
 
+        <div style={{position: "absolute" , bottom: "30px", left: "0px", marginRight: "auto", textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center", width: "100%"}}> <span style={{textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center"}}>2023 AnonyDoxx, LLC All Rights Reserved.</span> </div>
+
         <div className="clear spacer-medium-large"></div>
 
-        <div className="spacer-small"></div>
+       
+       
 
-        <a href="/">
-          <span className="disclosures-header">
-            View important investing disclosures{" "}
-            <span className="forward-icon">➜</span>
-          </span>
-        </a>
-
-        <p className="disclosures">
-          <b>
-            Albert is not a bank. Banking services provided by Sutton Bank,
-            Member FDIC. Albert Savings accounts are held for your benefit at
-            FDIC-insured banks, including Coastal Community Bank, Axos Bank, and
-            Wells Fargo, N.A.
-          </b>
-          The Albert Mastercard® debit card is issued by Sutton Bank, Member
-          FDIC, pursuant to a license by Mastercard International Incorporated.
-          Mastercard and the circles design are registered trademarks of
-          Mastercard International Incorporated. Early access to direct deposit
-          funds depends on the timing of the payer's submission of deposits. We
-          generally post such deposits to Albert Cash accounts on the day they
-          are received which may be up to 2 days earlier than the payer's
-          scheduled payment date. To be eligible for a direct deposit bonus, you
-          need to receive a qualifying direct deposit and meet the spend
-          requirements. Cash back terms apply. See app for details. Savings
-          bonus may vary. Download to see if you qualify for Albert Instant.
-          Repay the advance with your next paycheck. Fees may apply. When you
-          join Albert, you’ll set up an Albert Cash account and a 30-day trial
-          for Albert Genius as part of the sign-up process. If you cancel within
-          30 days of signing up, you will not be charged for your subscription.
-          Your subscription will auto-renew until canceled. Even if you cancel,
-          you can continue to access Albert Cash and Instant. If you cancel, you
-          will lose certain benefits associated with your Genius subscription,
-          such as Investing, access to Albert’s financial experts, free
-          in-network ATM withdrawals, and more.
-        </p>
-
-        <p className="disclosures">
-          All investments involve risk and the past performance does not
-          guarantee future returns. Consider the investment objectives, risks,
-          fees, and expenses of a fund before investing. Online trading has
-          risks associated with system response times market conditions and
-          other factors. Services offered through our mobile application are
-          offered only in jurisdictions where it is legal to do so and we
-          reserve the right to limit the availability of services to any persons
-          or jurisdictions in our sole discretion. See our Terms of Use for more
-          information. Albert Investments, LLC is an SEC Registered Investment
-          Advisor. Investment advisory services are only offered to clients
-          where Albert and its representatives are properly licensed or exempt
-          from licensure.
-        </p>
-
-        <p className="disclosures">
-          Securities products and services offered to self-directed investors
-          through Albert Securities, LLC Member{" "}
-          <u>
-            <a href="https://www.finra.org/">FINRA</a>
-          </u>{" "}
-          /{" "}
-          <u>
-            <a href="https://www.sipc.org/">SIPC</a>
-          </u>
-          . Albert Securities, LLC, Albert Investments, LLC and Albert
-          Corporation are separate but affiliated companies. For more
-          information about Albert Securities, LLC, see{" "}
-          <u>
-            <a href="https://brokercheck.finra.org/" target="_blank">
-              FINRA Broker Check
-            </a>
-          </u>
-          . Securities products are not FDIC insured or bank guaranteed, and may
-          lose value.
-        </p>
-
-        <p className="disclosures">
-          All corporate logos and trademarks are for illustrative purposes only
-          and are not a recommendation, an offer to sell, or a solicitation of
-          an offer to buy any security. Trademarks and logos are the property of
-          their respective owners and do not represent endorsements of any kind.
-          Examples, logos and/or pictures are for illustrative purposes only and
-          are not representative of real customers or investment
-          recommendations.
-        </p>
-
-        <p className="disclosures">Copyright © 2022, Albert Corporation</p>
       </footer>
 
       {/* // <!-- Mobile smart banner ("Get the app") --> */}
       <div className="smart-banner-wrapper" id="smart-banner">
-        <a className="smart-banner" href="https://app.albrt.co/download">
+        <a className="smart-banner" href="/">
           <div className="flex">
             <div className="smart-banner-text">
-              <p className="smart-banner-text-header">Albert</p>
+              <p className="smart-banner-text-header">ValidEntry</p>
               <p className="disclosures">Bank. Save. Invest.</p>
             </div>
           </div>
           <div className="smart-banner-button">
-            <div className="button">Get the app</div>
+            <div className="button">Coming Soon</div>
           </div>
         </a>
       </div>
