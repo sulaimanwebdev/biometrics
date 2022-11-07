@@ -19,12 +19,12 @@ function App() {
   };
 
   const handleScroll = () => {
-    if (window.pageYOffset < 170) {
+    if (window.pageYOffset < 20) {
       setnavbar("");
       setdropdownMobile("");
     }
 
-    if (window.pageYOffset > 170) {
+    if (window.pageYOffset > 20) {
       setnavbar("shrink");
       setdropdownMobile("topSpace");
 
@@ -230,7 +230,7 @@ function App() {
       <div className="heroChild">
       <div className="text-mainHero">
         <h1>Trust-first<br/>Digital<br/>Validation</h1>
-        <div className="heroDes">Identity verification for physical & virtual worlds.</div>
+        <div className="heroDes">Real-time identity verification & onboarding.</div>
               <a href="https://verify.validentry.com/" target="_blank">
                 Get started
               </a>
@@ -243,8 +243,6 @@ function App() {
 
      <div className="secondPartCont">
         <div>
-        Real-time identity verification and onboarding
-          <br /><br />
         Digital identity solutions that enable pinpointed entry into your products and services. Build trust, stop fraud, and automate KYC life-cycles while controlling digital interactions safely.
         </div>
      </div>
@@ -256,12 +254,11 @@ function App() {
             <div className="round-card reveal-on">
               <div className="round-card-inner reveal-delay">
                 <div className="round-card-content">
-                  <div className="bankingSmallText">KYC for your business</div>
-                  <div className="bankingHeading">The solution for everyone, anywhere, <span className="gradient">on any device</span></div>
+                  <div className="bankingSmallText">KYC FOR YOUR BUSINESS</div>
+                  <div className="bankingHeading">Solutions for everyone, anywhere, <span className="gradient">on any device</span></div>
                   <div className="bankingDesc">With AI-driven automation, intelligent customer insights, and compliance standards build to scale and streamline the know your customer process, digital identification is made simple. Intuitive, accurate data points stop fraud in its tracks, providing immediate decisions and industry leading matching thresholds.</div>
                   <div className="bankingFlex">
                     <a href="#">Explore KYC <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16"><path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
-                    <a href="#">Explore EURO Coin <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16"><path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg></a>
                   </div>
                 </div>
                 <div className="round-card-img-container cash">
