@@ -248,7 +248,7 @@ function App() {
      </div>
         
 
-        <div className="main-container">
+        <div className="main-container main-containerBanking">
           {/* <!-- Section: Banking --> */}
           <section className="main-section">
             <div className="round-card reveal-on">
