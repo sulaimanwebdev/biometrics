@@ -121,17 +121,19 @@ function App() {
               </button>
               <div className="sections">
                 <div className="features-section-desktop">
-                  <a href="/cash/">Cash</a>
-                  <a href="/instant/">Instant</a>
-                  <a href="/saving/">Saving</a>
-                  <a href="/investing/">Investing</a>
-                  <a href="/budgeting/">Budgeting</a>
-                  <a href="/genius/">Genius</a>
+                  <a href="/cash/">Technology</a>
+                  <a href="/cash/">Technology</a>
+                  <a href="#">Biometric Verification</a>
+                  <a href="#">Location Identification</a>
+                  <a href="#">Background Checks</a>
+                  <a href="#">Cognitive Video</a>
+                  <a href="/instant/">Security</a>
+                  <a href="/saving/">Integration</a>
+                  <a href="/investing/">About</a>
                 </div>
                 <div className="company-info-section-desktop">
                   <a href="/about/">About</a>
                   <a href="/careers/">Careers</a>
-                  <a href="/">Help</a>
                 </div>
                 <div className="app-links-section-desktop">
                   <a href="/" target="_blank" rel="noopener">
@@ -196,24 +198,25 @@ function App() {
             </button>
             <div id="mobileDrop" className={`dropdown-mobile ${dropdownMobile} ${mobileDrop}`}>
               <div id="features-mobile" className="features-section-mobile">
-                <a href="/cash/">Cash</a>
-                <a href="/instant/">Instant</a>
-                <a href="/saving/">Saving</a>
-                <a href="/investing/">Investing</a>
-                <a href="/budgeting/">Budgeting</a>
-                <a href="/genius/">Genius</a>
+                <a href="/cash/">Technology</a>
+                <a href="#">Biometric Verification</a>
+                <a href="#">Location Identification</a>
+                <a href="#">Background Checks</a>
+                <a href="#">Cognitive Video</a>
+                <a href="/instant/">Security</a>
+                <a href="/saving/">Integration</a>
+                <a href="/investing/">About</a>
               </div>
               <div className="company-info-section-mobile">
                 <a href="/about/">About</a>
                 <a href="/careers/">Careers</a>
-                <a href="/">Help</a>
               </div>
 
               <a
                 href="https://app.albrt.co/download"
                 className="get-app-btn text-center"
               >
-                Get the app
+                Get Started
               </a>
             </div>
           </div>
@@ -461,92 +464,65 @@ function App() {
 
           {/* <!-- Section: Saving --> */}
           <section className="main-section flex">
-            <div className="round-card yellow-gradient square desktop-only reveal-on">
-              <div className="round-card-inner saving reveal-delay">
-                <div className="round-card-content">
-                  <picture className="center-margin">
-                    <source
-                      srcSet="/images/img_home_saving.webp"
-                      type="image/webp"
-                    />
-                    <source
-                      srcSet="/images/img_home_saving.webp"
-                      type="image/webp"
-                    />
-                    <img
-                      className="splash-app-feature img-scale"
-                      src="/images/img_home_saving.webp"
-                      alt=""
-                    />
-                  </picture>
-                </div>
-              </div>
-            </div>
-            <a
-              href="/saving/"
-              className="round-card yellow square reveal-on card-hover"
+           
+            <div
+              
+              className="round-card round-card-yellow yellow square reveal-on card-hover"
             >
-              <div className="round-card-inner saving-m reveal-delay">
-                <div className="mobile-only text-center">
-                  <picture className="center-margin">
-                    <source
-                      srcSet="/images/img_home_saving.webp"
-                      type="image/webp"
-                    />
-                    <source
-                      srcSet="/images/img_home_saving.webp"
-                      type="image/webp"
-                    />
-                    <img
-                      className="splash-app-feature img-scale"
-                      src="/images/img_home_saving.webp"
-                      alt=""
-                    />
-                  </picture>
-                </div>
-                <div className="round-card-content bottom-p">
-                  <h2>Saving</h2>
+              <div className="round-card-inner round-card-inner-yellow saving-m reveal-delay">
+                
+                <div className="yellow-content">
+                  <h2>Execute At Scale</h2>
                   <p>
-                    Automatic saving based on your income, spending, and bills.
+                    AI and ML capabilities eliminate manual processes while driving highly accurate results.
                   </p>
                 </div>
               </div>
-              <div className="circle-plus reveal-standard">
-                <svg
-                  width="33"
-                  height="33"
-                  viewBox="0 0 33 33"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M31.1096 16.3242C31.1096 24.5407 24.4489 31.2014 16.2324 31.2014C8.01597 31.2014 1.35523 24.5407 1.35523 16.3242C1.35523 8.10777 8.01597 1.44703 16.2324 1.44703C24.4489 1.44703 31.1096 8.10777 31.1096 16.3242Z"
-                    stroke="#333333"
-                    strokeWidth="2.24561"
-                  ></path>
-                  <line
-                    x1="16.5017"
-                    y1="9.27124"
-                    x2="16.5017"
-                    y2="24.0923"
-                    stroke="#333333"
-                    strokeWidth="2.24561"
-                    strokeLinecap="round"
-                  ></line>
-                  <line
-                    x1="9.17749"
-                    y1="16.6233"
-                    x2="23.9985"
-                    y2="16.6233"
-                    stroke="#333333"
-                    strokeWidth="2.24561"
-                    strokeLinecap="round"
-                  ></line>
-                </svg>
+              
+            </div>
+
+
+
+            <div
+              
+              className="round-card round-card-yellow yellow square reveal-on card-hover"
+            >
+              <div className="round-card-inner round-card-inner-yellow saving-m reveal-delay">
+                
+                <div className="yellow-content">
+                  <h2>Instant Verifications</h2>
+                  <p>
+                  Lightning-quick identity verification with instant results taking just a few seconds to complete.
+                  </p>
+                </div>
               </div>
-            </a>
+              
+            </div>
+
+
+
+            <div
+              
+              className="round-card round-card-yellow yellow square reveal-on card-hover"
+            >
+              <div className="round-card-inner round-card-inner-yellow saving-m reveal-delay">
+                
+                <div className="yellow-content">
+                  <h2>Omni-Channel Solutions</h2>
+                  <p>
+                  Onboarding across web, mobile, apps, and cross-device and browsers.
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+
+
+
           </section>
 
+
+          
           {/* <!-- Section: Investing --> */}
           <section className="main-section">
             <a
@@ -555,8 +531,8 @@ function App() {
             >
               <div className="round-card-inner reveal-delay">
                 <div className="round-card-content">
-                  <h2>Investing</h2>
-                  <p>Start building your portfolio with&nbsp;just&nbsp;$1.</p>
+                  <h2>Passwordless Authentication</h2>
+                  <p>Powerful Web3 authentication, eliminate the need to sign up and ditch the password.</p>
                 </div>
                 <div className="round-card-img-container">
                   <picture className="center-margin">
@@ -622,8 +598,8 @@ function App() {
             >
               <div className="round-card-inner reveal-delay">
                 <div className="round-card-content">
-                  <h2>Budgeting</h2>
-                  <p>Track bills and spending. Uncover hidden savings.</p>
+                  <h2>Global Compliance Protection</h2>
+                  <p>Intelligent compliance solutions including AML, PEP, OFAC, Global Sanctions, AUSTRAC, OSFI, DFAT & more.</p>
                 </div>
                 <div className="round-card-img-container">
                   <picture className="center-margin budget-pic">
@@ -698,35 +674,27 @@ function App() {
                         Powerful <span>protection</span>
                       </h4>
                       <p>
-                        Albert uses advanced security features to protect
-                        millions of people.
+                      Advanced security features protecting millions of people across the globe.
                       </p>
                     </div>
                   </div>
                   <div className="col-3-full-small">
                     <div className="serious-security-item">
                       <h4>
-                        FDIC <span>insured</span>
+                      Framework
                       </h4>
                       <p>
-                        Albert Cash and Albert Savings are
-                        <a href="/" target="_blank">
-                          FDIC-insured
-                        </a>
-                        through our partner banks.
+                      Designed to ensure enterprise level data security standards.
                       </p>
                     </div>
                   </div>
                   <div className="col-3-full-small">
                     <div className="serious-security-item">
                       <h4>
-                        SIPC <span>protected</span>
+                      Security Criteria
                       </h4>
                       <p>
-                        Albert Investing securities are
-                        <a href="/" target="_blank">
-                          SIPC-protected
-                        </a>
+                       Aligned to meet AICP criteria, ISO/IEC, GDPR and CCPA standards.
                       </p>
                     </div>
                   </div>
@@ -755,18 +723,14 @@ function App() {
               </picture>
               <div className="spacer-tiny"></div>
               <h2 className="col-1-center">
-                We’ve helped members save and invest over $1&nbsp;billion.
+                Authentic user journeys solidify consumer confidence. 
               </h2>
               <div className="spacer-small"></div>
-              <div className="main-button-wrapper main-get-app-button">
-                <a className="button" href="https://app.albrt.co/download">
-                  Download app
-                </a>
-              </div>
+              
               
               <div className="main-button-wrapper" style={{ display: "block" }}>
-              <a href="https://verify.validentry.com/" target="_blank" className="button">
-                Get started
+              <a href="#" target="_blank" className="button">
+              Learn how
               </a>
               </div>
             </div>

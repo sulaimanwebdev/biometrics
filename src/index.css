@@ -2507,8 +2507,10 @@ a.job-apply{
 }
 @media(max-width: 768px){
   .round-card{
-      height:100%
+      height: 100%;
   }
+
+  
 }
 .round-card-inner{
   padding:2.5rem 4.44rem;
@@ -2534,13 +2536,7 @@ a.job-apply{
   .round-card-inner{
       padding:2.5rem 2rem
   }
-  .round-card-inner.saving-m{
-      padding:2.5rem 0
-  }
-  .round-card-inner.saving-m .round-card-content{
-      padding-left:2rem;
-      padding-right:2rem
-  }
+ 
 }
 @media(max-width: 600px){
   .round-card-inner{
@@ -2567,10 +2563,10 @@ a.job-apply{
   }
 }
 .round-card.yellow:after{
-  background-color:#feea4c
+  background-color:#e77d24
 }
 .round-card.yellow-gradient:after{
-  background:linear-gradient(43.04deg, #fec14c -9.74%, #feea4c 98.89%)
+  background:linear-gradient(43.04deg, #fec14c -9.74%, #e77d24 98.89%)
 }
 .round-card.green:after{
   background-color:#64f19c
@@ -2597,18 +2593,7 @@ a.job-apply{
 .round-card.square{
   flex:1 1 0
 }
-@media(min-width: 769px){
-  .round-card.square{
-      aspect-ratio:1/1
-  }
-}
-@supports not (aspect-ratio: 1/1){
-  @media(min-width: 1025px){
-      .round-card.square{
-          min-height:500px
-      }
-  }
-}
+
 .round-card-gold-gradient-text{
   margin-top:2rem;
   background-color:#eeae01;
@@ -2704,7 +2689,7 @@ a.job-apply{
   fill:#333
 }
 .card-hover.yellow:hover .circle-plus line{
-  stroke:#feea4c
+  stroke:#e77d24
 }
 .card-hover.green:hover .circle-plus svg{
   fill:#333
@@ -2743,10 +2728,10 @@ a.job-apply{
 }
 .serious-security-header{
   text-align:center;
-  flex:1
+  flex:1;
 }
 .serious-security-table{
-  flex:3
+  flex:3;
 }
 .serious-security-icon{
   margin:auto;
@@ -3103,7 +3088,9 @@ a.job-apply{
   display:flow-root
 }
 .flex{
-  display:flex
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
 }
 .flex-wrap{
   flex-wrap:wrap
@@ -3346,7 +3333,7 @@ a.job-apply{
   }
 }
 .col-3-full-small{
-  width:33.3%;
+  width:100%;
   padding:0 1em 3em 1em
 }
 @media(max-width: 768px){
@@ -3841,4 +3828,63 @@ footer{
   footer{
   margin-top: -200px !important;
   }
+}
+
+
+.round-card-inner-yellow {
+  padding: 30px 25px 60px 30px !important;
+  color:white;
+}
+
+.yellow-content{
+  margin: 0px;
+}
+
+.yellow-content h2{
+  font-size: 27px;
+}
+
+
+.main-section>:not(:first-child){
+  margin: 0 !important;
+}
+@media (max-width: 812px){
+  .flex{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px){
+  .round-card-innerBanking{
+    padding-left:20px !important;
+    padding-right:20px !important;
+    padding-top:30px !important;
+  }
+
+  .round-card-inner-yellow {
+  padding: 20px 25px 60px 20px !important;
+}
+
+  footer{
+  margin-top: -200px !important;
+  }
+}
+
+@media (max-width: 768px){
+  .round-card-yellow{
+      height: initial !important;
+  }
+
+  .round-card-yellow:after{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  border-radius:10px;
+  background-color:#fff;
+  top:0;
+  left:0;
+  z-index:1
+}
+
 }
