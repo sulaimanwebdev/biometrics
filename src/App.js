@@ -7,6 +7,7 @@ function App() {
   const [dropdownDesktop, setdropdownDesktop] = useState("");
   const [mobileDrop, setmobileDrop] = useState("");
   const [dropdownMobile, setdropdownMobile] = useState("");
+  const [hidden, sethidden] = useState("hidden");
   
   let openModal = () => {
     setmodal("flex");
@@ -121,11 +122,11 @@ function App() {
               </button>
               <div className="sections">
                 <div className="features-section-desktop">
-                  <a href="/cash/">Technology</a>
-                  <a href="#">Biometric Verification</a>
-                  <a href="#">Location Identification</a>
-                  <a href="#">Background Checks</a>
-                  <a href="#">Cognitive Video</a>
+                  <button onClick={()=> hidden === "hidden" ? sethidden("") : sethidden("hidden")}>Technology {hidden === "hidden" ? <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-down-short" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/></svg> : <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-up-short" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/></svg>}</button>
+                  <a href="#" className={hidden}>Biometric Verification</a>
+                  <a href="#" className={hidden}>Location Identification</a>
+                  <a href="#" className={hidden}>Background Checks</a>
+                  <a href="#" className={hidden}>Cognitive Video</a>
                   <a href="/instant/">Security</a>
                   <a href="/saving/">Integration</a>
                   <a href="/investing/">About</a>
@@ -197,11 +198,11 @@ function App() {
             </button>
             <div id="mobileDrop" className={`dropdown-mobile ${dropdownMobile} ${mobileDrop}`}>
               <div id="features-mobile" className="features-section-mobile">
-                <a href="/cash/">Technology</a>
-                <a href="#">Biometric Verification</a>
-                <a href="#">Location Identification</a>
-                <a href="#">Background Checks</a>
-                <a href="#">Cognitive Video</a>
+                  <button onClick={()=> hidden === "hidden" ? sethidden("") : sethidden("hidden")}>Technology {hidden === "hidden" ? <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-down-short" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/></svg> : <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-up-short" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/></svg>}</button>
+                  <a href="#" className={hidden}>Biometric Verification</a>
+                  <a href="#" className={hidden}>Location Identification</a>
+                  <a href="#" className={hidden}>Background Checks</a>
+                  <a href="#" className={hidden}>Cognitive Video</a>
                 <a href="/instant/">Security</a>
                 <a href="/saving/">Integration</a>
                 <a href="/investing/">About</a>

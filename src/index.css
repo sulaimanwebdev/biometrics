@@ -401,6 +401,16 @@ nav a:hover,nav a:visited:hover{
   font-weight:500;
   padding-bottom:20px
 }
+
+.features-section-desktop>button{
+  display:flex;
+  align-items:center;
+  color:#333;
+  font-size:1.6em;
+  font-weight:500;
+  padding-bottom:20px
+  
+}
 .features-section-desktop>a:last-child{
   padding-bottom:40px
 }
@@ -467,6 +477,15 @@ nav a:hover,nav a:visited:hover{
 }
 .features-section-mobile>a{
   display:block;
+  color:#333;
+  font-size:1.25em;
+  font-weight:500;
+  padding:16px 0 16px 5%
+}
+
+.features-section-mobile>button{
+  display:flex;
+  align-items:center;
   color:#333;
   font-size:1.25em;
   font-weight:500;
@@ -3887,4 +3906,8 @@ footer{
   z-index:1
 }
 
+}
+
+.hidden{
+  display: none !important;
 }
