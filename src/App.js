@@ -122,7 +122,6 @@ function App() {
               <div className="sections">
                 <div className="features-section-desktop">
                   <a href="/cash/">Technology</a>
-                  <a href="/cash/">Technology</a>
                   <a href="#">Biometric Verification</a>
                   <a href="#">Location Identification</a>
                   <a href="#">Background Checks</a>
